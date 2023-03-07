@@ -13,7 +13,6 @@ let subarray = [];
 for (let i = 0; i <Math.ceil(data.length/size); i++){
     subarray[i] = data.slice((i*size), (i*size) + size);
 }
-  
   return subarray.reverse().flat();
 }
 ```
